@@ -103,41 +103,59 @@
 			<path d="M 18,175 L 482,175 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 18,149 L 482,149 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 18,123 L 482,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 76,305 L 76,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 134,305 L 134,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 192,305 L 192,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 48,305 L 48,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 98,305 L 98,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 120,305 L 120,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 172,305 L 172,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 200,305 L 200,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 280,305 L 280,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 330,305 L 330,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 352,305 L 352,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 404,305 L 404,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 432,305 L 432,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 250,305 L 250,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 308,305 L 308,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 366,305 L 366,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 424,305 L 424,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<text x="34.8626708984375" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">OUT</text>
-			<text x="157.25" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">IN</text>
-			<text x="266.8626708984375" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">OUT</text>
-			<text x="389.25" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">IN</text>
-			<text x="34.8626708984375" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">OUT</text>
-			<text x="157.25" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">IN</text>
-			<text x="266.8626708984375" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">OUT</text>
-			<text x="389.25" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">IN</text>
-			<text x="34.8626708984375" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">OUT</text>
-			<text x="157.25" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">IN</text>
-			<text x="266.8626708984375" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">OUT</text>
-			<text x="389.25" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">IN</text>
-			<text x="34.8626708984375" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">OUT</text>
-			<text x="157.25" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">IN</text>
-			<text x="266.8626708984375" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">OUT</text>
-			<text x="389.25" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">IN</text>
-			<text x="34.8626708984375" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">OUT</text>
-			<text x="157.25" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">IN</text>
-			<text x="266.8626708984375" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">OUT</text>
-			<text x="389.25" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">IN</text>
-			<text x="34.8626708984375" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">OUT</text>
-			<text x="157.25" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">IN</text>
-			<text x="266.8626708984375" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">OUT</text>
-			<text x="389.25" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">IN</text>
-			<text x="34.8626708984375" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">OUT</text>
-			<text x="157.25" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">IN</text>
-			<text x="266.8626708984375" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">OUT</text>
-			<text x="389.25" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">IN</text>
+			<text x="20.8626708984375" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">OUT</text>
+			<text x="103.25" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">IN</text>
+			<text x="175.460205078125" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">MIN</text>
+			<text x="252.8626708984375" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">OUT</text>
+			<text x="335.25" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">IN</text>
+			<text x="407.460205078125" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">MIN</text>
+			<text x="20.8626708984375" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">OUT</text>
+			<text x="103.25" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">IN</text>
+			<text x="175.460205078125" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">MIN</text>
+			<text x="252.8626708984375" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">OUT</text>
+			<text x="335.25" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">IN</text>
+			<text x="407.460205078125" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">MIN</text>
+			<text x="20.8626708984375" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">OUT</text>
+			<text x="103.25" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">IN</text>
+			<text x="175.460205078125" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">MIN</text>
+			<text x="252.8626708984375" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">OUT</text>
+			<text x="335.25" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">IN</text>
+			<text x="407.460205078125" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">MIN</text>
+			<text x="20.8626708984375" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">OUT</text>
+			<text x="103.25" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">IN</text>
+			<text x="175.460205078125" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">MIN</text>
+			<text x="252.8626708984375" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">OUT</text>
+			<text x="335.25" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">IN</text>
+			<text x="407.460205078125" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">MIN</text>
+			<text x="20.8626708984375" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">OUT</text>
+			<text x="103.25" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">IN</text>
+			<text x="175.460205078125" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">MIN</text>
+			<text x="252.8626708984375" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">OUT</text>
+			<text x="335.25" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">IN</text>
+			<text x="407.460205078125" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">MIN</text>
+			<text x="20.8626708984375" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">OUT</text>
+			<text x="103.25" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">IN</text>
+			<text x="175.460205078125" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">MIN</text>
+			<text x="252.8626708984375" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">OUT</text>
+			<text x="335.25" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">IN</text>
+			<text x="407.460205078125" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">MIN</text>
+			<text x="20.8626708984375" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">OUT</text>
+			<text x="103.25" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">IN</text>
+			<text x="175.460205078125" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">MIN</text>
+			<text x="252.8626708984375" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">OUT</text>
+			<text x="335.25" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">IN</text>
+			<text x="407.460205078125" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">MIN</text>
 			<path d="M 448 100 C 447 75 437 59 420 51 C 444 57 450 70 448 100 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
 			<path d="M 451 100 C 451 70 459 59 477 51 C 461 64 456 78 451 100 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
 			<path d="M 423 49 C 442 62 455 63 475 49 C 455 55 443 55 423 49 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>

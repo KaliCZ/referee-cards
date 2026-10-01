@@ -1,26 +1,7 @@
-import json
-import os
-from pathlib import Path
-
-import pypdfium2 as pdfium
-from reportlab.graphics import renderPDF, renderSVG
-from reportlab.graphics.shapes import Circle, Drawing, Line, Path as VectorPath, Rect, String
+from reportlab.graphics.shapes import Circle, Path as VectorPath, Rect
 from reportlab.lib.colors import black, white
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.pdfbase.pdfmetrics import Font
 
-
-DIRECTORY = Path(__file__).resolve().parent
-HEIGHT = 750
-
-
-def line(drawing, left, top, right, bottom, weight=0.7):
-    drawing.add(Line(left, HEIGHT - top, right, HEIGHT - bottom, strokeColor=black, strokeWidth=weight))
-
-
-def text(drawing, value, left, baseline, size=11.5, bold=False, anchor="start"):
-    drawing.add(String(left, HEIGHT - baseline, value, fontName="CardHeading" if bold else "CardRegular", fontSize=size, textAnchor=anchor, fillColor=black))
+from card_drawing import HEIGHT, create_card, export_card, line, text
 
 
 def stopwatch(drawing, left, top, state):
@@ -66,21 +47,7 @@ def logo(drawing):
 
 
 def main():
-    layout = json.loads((DIRECTORY / "card-layout.json").read_text())
-    fonts = Path(os.environ.get("WINDIR", "C:/Windows")) / "Fonts"
-    if (fonts / "arial.ttf").is_file() and (fonts / "ARIALNB.TTF").is_file():
-        pdfmetrics.registerFont(TTFont("CardRegular", str(fonts / "arial.ttf")))
-        pdfmetrics.registerFont(TTFont("CardHeading", str(fonts / "ARIALNB.TTF")))
-    else:
-        pdfmetrics.registerFont(Font("CardRegular", "Helvetica", "WinAnsiEncoding"))
-        pdfmetrics.registerFont(Font("CardHeading", "Helvetica-Bold", "WinAnsiEncoding"))
-    drawing = Drawing(500, HEIGHT)
-    drawing.add(Rect(0, 0, 500, HEIGHT, fillColor=white, strokeColor=None))
-    border_width = layout["cut_border_width_pt"] / (layout["width_mm"] * 72 / 25.4 / 500)
-    border_inset = border_width / 2
-    radius_x = layout["corner_radius_mm"] * 500 / layout["width_mm"]
-    radius_y = layout["corner_radius_mm"] * HEIGHT / layout["height_mm"]
-    drawing.add(Rect(border_inset, border_inset, 500 - border_width, HEIGHT - border_width, rx=radius_x - border_inset, ry=radius_y - border_inset, fillColor=None, strokeColor=black, strokeWidth=border_width))
+    drawing, layout = create_card()
     text(drawing, "MATCH NOTES", 250, 62, 24, True, "middle")
     for horizontal in [75, 145, 171, 198]:
         line(drawing, 18, horizontal, 482, horizontal)
@@ -104,27 +71,16 @@ def main():
     text(drawing, "SUBSTITUTIONS", 250, 438, 21, True, "middle")
     for row in range(8):
         line(drawing, 18, 445 + row * 26, 482, 445 + row * 26)
-    for column in range(1, 8):
-        line(drawing, 18 + column * 58, 445, 18 + column * 58, 627)
+    for team_left in [18, 250]:
+        for offset in [30, 80, 102, 154, 182]:
+            line(drawing, team_left + offset, 445, team_left + offset, 627)
+    line(drawing, 250, 445, 250, 627)
     for row in range(7):
-        for column, label in [(0, "OUT"), (2, "IN"), (4, "OUT"), (6, "IN")]:
-            text(drawing, label, 18 + (column + 0.5) * 58, 462 + row * 26, 11.5, anchor="middle")
+        for team_left in [18, 250]:
+            for offset, label in [(15, "OUT"), (91, "IN"), (168, "MIN")]:
+                text(drawing, label, team_left + offset, 462 + row * 26, 11.5, anchor="middle")
     logo(drawing)
-
-    scale_x = layout["width_mm"] * 72 / 25.4 / 500
-    scale_y = layout["height_mm"] * 72 / 25.4 / HEIGHT
-    drawing.scale(scale_x, scale_y)
-    drawing.width = 500 * scale_x
-    drawing.height = HEIGHT * scale_y
-    vector_path = DIRECTORY / "cards/front-match-notes-vector.pdf"
-    renderPDF.drawToFile(drawing, str(vector_path), title="Clean vector match-notes card")
-    renderSVG.drawToFile(drawing, str(DIRECTORY / "cards/front-match-notes.svg"))
-    document = pdfium.PdfDocument(str(vector_path))
-    rendered = document[0].render(scale=600 / 72).to_pil().convert("RGB")
-    rendered.save(DIRECTORY / "cards/front-match-notes-current-lossless.png", dpi=(600, 600))
-    rendered.save(DIRECTORY / "cards/front-match-notes.jpg", quality=100, subsampling=0, dpi=(600, 600))
-    print(vector_path)
-    print("JPEG and PNG exported at", rendered.size)
+    export_card(drawing, layout, "front-match-notes", "Match notes with substitution minutes")
 
 
 if __name__ == "__main__":

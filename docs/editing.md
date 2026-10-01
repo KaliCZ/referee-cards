@@ -4,7 +4,9 @@
 
 The PDF builder reads the current JPEGs in `cards/` and `card-layout.json`. Commit changes to the relevant masters and the rebuilt PDFs together. Keep the `*-current-lossless.png` companions synchronized if editing them. The `*-initial-lossless.png` files are historical snapshots, not the latest artwork.
 
-For the front, `redraw_front.py` is the editable drawing source. It creates the JPEG, PNG, SVG and vector PDF. An SVG edit is not imported into the Python drawing script. Include any newer JPEG-only edits in the script before regenerating, or they will be overwritten. The normal print builder never runs the redraw automatically.
+`redraw_front.py` and `redraw_back.py` are the editable drawing sources. Both use `card_drawing.py` for shared fonts, physical sizing and exports. Each creates its side's JPEG, PNG, SVG and vector PDF. An SVG edit is not imported into the Python drawing script. Include any newer JPEG-only edits in the corresponding script before regenerating, or they will be overwritten. The normal print builder never runs the redraw automatically.
+
+The front keeps seven substitution rows per team, with compact Out and In labels and a Min field for each substitution. The penalties table has 16 rows and five columns: Number, Yellow, Second Yellow, Red and Notes. All notes rows align with the penalty rows. Both sides use black vector artwork on white.
 
 Use lossless working files during edits and export the finished JPEG once at maximum quality. JPEG DPI metadata does not control the print size; the JSON dimensions do.
 

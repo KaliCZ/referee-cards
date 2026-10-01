@@ -22,5 +22,6 @@ jobs:
       - name: Rebuild on Linux and check again
         run: |
           python redraw_front.py
+          python redraw_back.py
           python build_print_pdf.py
           python -m unittest discover -s tests
