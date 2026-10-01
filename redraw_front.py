@@ -1,7 +1,8 @@
 from card_drawing import create_card, export_card, line, text
 
 
-ENTRY_ROW_HEIGHT = 35
+CONTENT_TOP = 26.5
+ENTRY_ROW_HEIGHT = 33.6
 
 
 def goals(drawing, heading_top, title):
@@ -37,18 +38,18 @@ def substitutions(drawing, heading_top):
 
 def main():
     drawing, layout = create_card()
-    for horizontal in [16, 53, 77]:
+    for horizontal in [CONTENT_TOP, CONTENT_TOP + 37, CONTENT_TOP + 61]:
         line(drawing, 18, horizontal, 482, horizontal)
-    line(drawing, 250, 16, 250, 77)
+    line(drawing, 250, CONTENT_TOP, 250, CONTENT_TOP + 61)
     for vertical in [190, 422]:
-        line(drawing, vertical, 16, vertical, 53)
-    text(drawing, "HOME:", 25, 33)
-    text(drawing, "AWAY:", 257, 33)
+        line(drawing, vertical, CONTENT_TOP, vertical, CONTENT_TOP + 37)
+    text(drawing, "HOME:", 25, CONTENT_TOP + 17)
+    text(drawing, "AWAY:", 257, CONTENT_TOP + 17)
     for center in [220, 452]:
-        text(drawing, "BALL", center, 33, anchor="middle")
+        text(drawing, "BALL", center, CONTENT_TOP + 17, anchor="middle")
     for start in [25, 257]:
-        text(drawing, "JERSEY COLOUR:", start, 69)
-    first_half_top = 77
+        text(drawing, "JERSEY COLOUR:", start, CONTENT_TOP + 53)
+    first_half_top = CONTENT_TOP + 61
     second_half_top = first_half_top + 44 + 4 * ENTRY_ROW_HEIGHT
     substitutions_top = second_half_top + 44 + 4 * ENTRY_ROW_HEIGHT
     goals(drawing, first_half_top, "1. HALF")

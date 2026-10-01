@@ -91,4 +91,4 @@ validation and printer-calibration workflow.
 - `card_drawing.py`: shared drawing, fonts, sizing and export functions.
 - `tests/`: checks for physical sizes, complete borders and duplex positioning.
 
-The layout was adapted from scanned SELECT referee cards. The current front omits the logo and large title to give more room to handwriting. Goal and substitution writing rows are equally tall (5.32 mm); team and jersey rows remain compact.
+The layout was adapted from scanned SELECT referee cards. The current front omits the logo and large title to give more room to handwriting. Goal and substitution writing rows are equally tall (5.11 mm); team and jersey rows remain compact. The front leaves approximately 4 mm of clear space inside the top and bottom cutting borders for trimming tolerance.
