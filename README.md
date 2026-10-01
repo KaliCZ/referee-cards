@@ -74,6 +74,9 @@ This regenerates both sides' JPEGs, lossless PNGs, SVGs and vector PDFs. The sha
 
 See [editing and size notes](docs/editing.md) for source-file roles and scan measurements.
 
+For future agent sessions, [AGENTS.md](AGENTS.md) defines the editing, rebuilding,
+validation and printer-calibration workflow.
+
 ## Project contents
 
 - `print/`: ready-to-print PDFs.
