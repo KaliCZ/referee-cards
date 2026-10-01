@@ -1,0 +1,28 @@
+name: Validate printable cards
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Check committed printable files
+        run: python -m unittest discover -s tests
+      - name: Rebuild on Linux and check again
+        run: |
+          python redraw_front.py
+          python redraw_back.py
+          python build_print_pdf.py
+          python build_heavy_print_pdf.py
+          python -m unittest discover -s tests

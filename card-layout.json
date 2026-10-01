@@ -1,0 +1,31 @@
+{
+  "width_mm": 77,
+  "height_mm": 114,
+  "corner_radius_mm": 3,
+  "cut_border_width_pt": 0.35,
+  "front_jpeg": "cards/front-match-notes.jpg",
+  "back_jpeg": "cards/back-disciplinary.jpg",
+  "initial_pixel_width": 1857,
+  "initial_pixel_height": 2787,
+  "source_pdf_page_points": [
+    595,
+    842
+  ],
+  "crop_reference_size": [
+    1335,
+    1888
+  ],
+  "front_crop_reference": [
+    40,
+    975,
+    500,
+    750
+  ],
+  "back_crop_reference": [
+    31,
+    73,
+    500,
+    750
+  ],
+  "size_basis": "User measured the original card as 77 mm wide by 114 mm tall. Corner radius is a visual approximation. Original scan crop coordinates are retained only as provenance."
+}

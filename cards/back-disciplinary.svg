@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="218.2677165354331" height="323.1496062992126" preserveAspectRatio="xMinYMin meet" viewBox="0 0 218 323" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="218.2677165354331" height="323.1496062992126"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-323)" style="clip-path: url(#clip)">
+		<g transform=" matrix(0.436535,0,0,0.430866,0,0)">
+			<rect x="0" y="0" width="500" height="750" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0.40088383838383834" y="0.40088383838383834" width="499.19823232323233" height="749.1982323232323" rx="19.079635642135642" ry="19.33595826687932" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8017676767676767; fill: none; fill-rule: evenodd;"/>
+			<text x="48.1982421875" y="720" style="font-family: CardHeading; font-size: 20px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1440) scale(1,-1)">WARNINGS, TIME PENALTIES AND SENDINGS OFF</text>
+			<path d="M 18,712 L 482,712 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="25.5823974609375" y="693" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1386) scale(1,-1)">NUMBER</text>
+			<text x="318.608642578125" y="693" style="font-family: CardRegular; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1386) scale(1,-1)">NOTES</text>
+			<g transform=" matrix(0,1,-1,0,106,676)">
+				<text x="-21.046875" y="0" style="font-family: CardHeading; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,0) scale(1,-1)">YELLOW</text>
+			</g>
+			<g transform=" matrix(0,1,-1,0,140,676)">
+				<text x="-21.0439453125" y="0" style="font-family: CardHeading; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,0) scale(1,-1)">SECOND</text>
+			</g>
+			<g transform=" matrix(0,1,-1,0,153,676)">
+				<text x="-21.046875" y="0" style="font-family: CardHeading; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,0) scale(1,-1)">YELLOW</text>
+			</g>
+			<g transform=" matrix(0,1,-1,0,185,676)">
+				<text x="-10.3828125" y="0" style="font-family: CardHeading; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,0) scale(1,-1)">RED</text>
+			</g>
+			<path d="M 83,712 L 83,34 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 122,712 L 122,34 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 161,712 L 161,34 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 200,712 L 200,34 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,642 L 482,642 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,604 L 482,604 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,566 L 482,566 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,528 L 482,528 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,490 L 482,490 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,452 L 482,452 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,414 L 482,414 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,376 L 482,376 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,338 L 482,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,300 L 482,300 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,262 L 482,262 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,224 L 482,224 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,186 L 482,186 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,148 L 482,148 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,110 L 482,110 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,72 L 482,72 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,34 L 482,34 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+		</g>
+	</g>
+</svg>
