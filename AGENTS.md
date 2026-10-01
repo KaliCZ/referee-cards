@@ -18,8 +18,9 @@ design or printing workflow changes.
 - Preserve the originals in `sources/` and the `*-initial-lossless.png`
   snapshots. Keep current JPEG, lossless PNG, SVG and vector PDF exports
   synchronized with any side that is redrawn.
-- Preserve the current layout described in `docs/editing.md`, including the
-  SELECT mark, unless the requested change affects it.
+- Preserve the current layout described in `docs/editing.md` unless the
+  requested change affects it. Goal and substitution writing rows have equal
+  heights; the compact team and jersey rows have their own fixed heights.
 
 ## Physical size and printer compensation
 
