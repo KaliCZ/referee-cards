@@ -15,7 +15,7 @@
 			<path d="M 18,723.5 L 482,723.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 18,686.5 L 482,686.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 18,662.5 L 482,662.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 250,723.5 L 250,662.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 250,723.5 L 250,662.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 2.1;"/>
 			<path d="M 190,723.5 L 190,686.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 422,723.5 L 422,686.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<text x="25" y="706.5" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1413) scale(1,-1)">HOME:</text>
@@ -40,7 +40,6 @@
 			<path d="M 163,618.5 L 163,484.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 192,618.5 L 192,484.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 221,618.5 L 221,484.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 250,618.5 L 250,484.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 279,618.5 L 279,484.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 308,618.5 L 308,484.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 337,618.5 L 337,484.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
@@ -48,7 +47,7 @@
 			<path d="M 395,618.5 L 395,484.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 424,618.5 L 424,484.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 453,618.5 L 453,484.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 250,638.5 L 250,618.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 250,638.5 L 250,484.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 2.1;"/>
 			<text x="220.572265625" y="465.1" style="font-family: CardHeading; font-size: 19px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,930) scale(1,-1)">2. HALF</text>
 			<path d="M 18,460.1 L 482,460.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<text x="25" y="445.1" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,890) scale(1,-1)">GOALS (PLAYER / MIN)</text>
@@ -65,7 +64,6 @@
 			<path d="M 163,440.1 L 163,305.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 192,440.1 L 192,305.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 221,440.1 L 221,305.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 250,440.1 L 250,305.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 279,440.1 L 279,305.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 308,440.1 L 308,305.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 337,440.1 L 337,305.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
@@ -73,7 +71,7 @@
 			<path d="M 395,440.1 L 395,305.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 424,440.1 L 424,305.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 453,440.1 L 453,305.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 250,460.1 L 250,440.1 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 250,460.1 L 250,305.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 2.1;"/>
 			<text x="180.647705078125" y="285.70000000000005" style="font-family: CardHeading; font-size: 21px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,571) scale(1,-1)">SUBSTITUTIONS</text>
 			<path d="M 18,279.7 L 482,279.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 18,261.7 L 482,261.7 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
@@ -94,7 +92,7 @@
 			<text x="276.5293375651042" y="266.70000000000005" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,533) scale(1,-1)">OUT</text>
 			<text x="360.25" y="266.70000000000005" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,533) scale(1,-1)">IN</text>
 			<text x="432.79353841145837" y="266.70000000000005" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,533) scale(1,-1)">MIN</text>
-			<path d="M 250,279.7 L 250,26.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 250,279.7 L 250,26.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 2.1;"/>
 		</g>
 	</g>
 </svg>

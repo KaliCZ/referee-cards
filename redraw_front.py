@@ -3,6 +3,7 @@ from card_drawing import create_card, export_card, line, text
 
 CONTENT_TOP = 26.5
 ENTRY_ROW_HEIGHT = 33.6
+TEAM_DIVIDER_WIDTH = 2.1
 
 
 def goals(drawing, heading_top, title):
@@ -15,8 +16,9 @@ def goals(drawing, heading_top, title):
     for row in range(5):
         line(drawing, 18, grid_top + row * ENTRY_ROW_HEIGHT, 482, grid_top + row * ENTRY_ROW_HEIGHT, 1.2 if row == 2 else 0.7)
     for column in range(1, 16):
-        line(drawing, 18 + column * 29, grid_top, 18 + column * 29, grid_top + 4 * ENTRY_ROW_HEIGHT)
-    line(drawing, 250, label_top, 250, grid_top)
+        if column != 8:
+            line(drawing, 18 + column * 29, grid_top, 18 + column * 29, grid_top + 4 * ENTRY_ROW_HEIGHT)
+    line(drawing, 250, label_top, 250, grid_top + 4 * ENTRY_ROW_HEIGHT, TEAM_DIVIDER_WIDTH)
 
 
 def substitutions(drawing, heading_top):
@@ -33,14 +35,14 @@ def substitutions(drawing, heading_top):
             line(drawing, boundary, header_top, boundary, grid_bottom)
         for column, label in enumerate(["OUT", "IN", "MIN"]):
             text(drawing, label, team_left + (column + 0.5) * 232 / 3, header_top + 13, 11.5, anchor="middle")
-    line(drawing, 250, header_top, 250, grid_bottom)
+    line(drawing, 250, header_top, 250, grid_bottom, TEAM_DIVIDER_WIDTH)
 
 
 def main():
     drawing, layout = create_card()
     for horizontal in [CONTENT_TOP, CONTENT_TOP + 37, CONTENT_TOP + 61]:
         line(drawing, 18, horizontal, 482, horizontal)
-    line(drawing, 250, CONTENT_TOP, 250, CONTENT_TOP + 61)
+    line(drawing, 250, CONTENT_TOP, 250, CONTENT_TOP + 61, TEAM_DIVIDER_WIDTH)
     for vertical in [190, 422]:
         line(drawing, vertical, CONTENT_TOP, vertical, CONTENT_TOP + 37)
     text(drawing, "HOME:", 25, CONTENT_TOP + 17)

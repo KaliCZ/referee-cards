@@ -10,6 +10,8 @@ The front has a compact Home/Away and Ball header, a jersey-colour row and no ma
 
 Use lossless working files during edits and export the finished JPEG once at maximum quality. JPEG DPI metadata does not control the print size; the JSON dimensions do.
 
+The front's centre divider is three times the regular grid-line weight to distinguish Home from Away across the team/jersey header, both goals grids and substitutions. It stops at the shared section headings so it does not cross their text.
+
 The front has no large Match Notes title or SELECT logo. Each player-number row, minute row and substitution row is 5.1072 mm tall (33.6 drawing units), controlled by `ENTRY_ROW_HEIGHT` in `redraw_front.py`. A goal-entry pair contains two such rows. The team row remains 37 units (5.624 mm) and the jersey row 24 units (3.648 mm). The content begins 26.5 units from the top and ends 26.5 units from the bottom, leaving approximately 4 mm inside the cutting borders for trimming tolerance. The outer card dimensions stay 77 x 114 mm.
 
 ## Physical dimensions
