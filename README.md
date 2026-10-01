@@ -33,7 +33,7 @@ Open the A4 PDF in the `print` folder and use the settings above.
 | --- | --- |
 | ![Match-notes front](docs/front-preview.png) | ![Penalties back](docs/back-preview.png) |
 
-The front has team names, jersey colours, match timings, goals for each half, and **seven substitution rows per team**, each with Out, In and Min fields. The back has 16 rows for Number, Yellow, Second Yellow, Red and a wide **Notes column** with matching horizontal rules for handwritten reasons.
+The front has team names, jersey colours, match timings, goals for each half, and **seven substitution rows per team**, each with Out, In and Min fields. The back has 16 unnumbered rows with a compact Number column for handwritten player numbers, Yellow, Second Yellow, Red and a wide **Notes column** with matching horizontal rules for handwritten reasons.
 
 ## Edit and rebuild
 
