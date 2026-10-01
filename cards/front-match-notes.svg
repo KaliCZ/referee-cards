@@ -12,150 +12,113 @@
 		<g transform=" matrix(0.436535,0,0,0.430866,0,0)">
 			<rect x="0" y="0" width="500" height="750" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
 			<rect x="0.40088383838383834" y="0.40088383838383834" width="499.19823232323233" height="749.1982323232323" rx="19.079635642135642" ry="19.33595826687932" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8017676767676767; fill: none; fill-rule: evenodd;"/>
-			<text x="177.853515625" y="688" style="font-family: CardHeading; font-size: 24px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1376) scale(1,-1)">MATCH NOTES</text>
-			<path d="M 18,675 L 482,675 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,605 L 482,605 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,579 L 482,579 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,552 L 482,552 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 250,675 L 250,552 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 190,675 L 190,605 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 422,675 L 422,605 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<text x="25" y="658" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1316) scale(1,-1)">HOME TEAM:</text>
-			<text x="257" y="658" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1316) scale(1,-1)">AWAY TEAM:</text>
-			<text x="204.664794921875" y="658" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1316) scale(1,-1)">KICK-</text>
-			<text x="208.5028076171875" y="644" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1288) scale(1,-1)">OFF</text>
-			<text x="436.664794921875" y="658" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1316) scale(1,-1)">KICK-</text>
-			<text x="440.5028076171875" y="644" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1288) scale(1,-1)">OFF</text>
-			<text x="25" y="587" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1174) scale(1,-1)">JERSEY COLOUR:</text>
-			<text x="257" y="587" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1174) scale(1,-1)">JERSEY COLOUR:</text>
-			<circle cx="29" cy="566" r="6.5" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="26.7" y="573.2" width="4.599999999999998" height="2.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<text x="41" y="561" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1122) scale(1,-1)">KO:</text>
-			<path d="M 134,579 L 134,552 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<circle cx="145" cy="566" r="6.5" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="142.7" y="573.2" width="4.599999999999994" height="2.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<path d="M 145,566 L 145,571 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
-			<path d="M 145,566 L 148.5,564.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
-			<text x="157" y="561" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1122) scale(1,-1)">HT:</text>
-			<circle cx="261" cy="566" r="6.5" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="258.7" y="573.2" width="4.600000000000023" height="2.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<path d="M 261,566 L 261,571 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
-			<path d="M 261,566 L 264.5,564.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
-			<text x="273" y="561" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1122) scale(1,-1)">2.H:</text>
-			<path d="M 366,579 L 366,552 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<circle cx="377" cy="566" r="6.5" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<rect x="374.7" y="573.2" width="4.600000000000023" height="2.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<path d="M 377,566 L 377,571 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
-			<path d="M 377,566 L 380.5,564.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
-			<text x="389" y="561" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1122) scale(1,-1)">FT:</text>
-			<text x="220.572265625" y="531" style="font-family: CardHeading; font-size: 19px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1062) scale(1,-1)">1. HALF</text>
-			<path d="M 18,523 L 482,523 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<text x="25" y="505" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1010) scale(1,-1)">GOALS (MIN)</text>
-			<text x="257" y="505" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1010) scale(1,-1)">GOALS (MIN)</text>
-			<path d="M 18,497 L 482,497 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,471 L 482,471 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,445 L 482,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 47,497 L 47,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 76,497 L 76,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 105,497 L 105,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 134,497 L 134,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 163,497 L 163,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 192,497 L 192,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 221,497 L 221,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 250,497 L 250,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 279,497 L 279,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 308,497 L 308,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 337,497 L 337,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 366,497 L 366,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 395,497 L 395,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 424,497 L 424,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 453,497 L 453,445 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 250,523 L 250,497 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<text x="220.572265625" y="424" style="font-family: CardHeading; font-size: 19px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,848) scale(1,-1)">2. HALF</text>
-			<path d="M 18,416 L 482,416 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<text x="25" y="398" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,796) scale(1,-1)">GOALS (MIN)</text>
-			<text x="257" y="398" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,796) scale(1,-1)">GOALS (MIN)</text>
-			<path d="M 18,390 L 482,390 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,364 L 482,364 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,338 L 482,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 47,390 L 47,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 76,390 L 76,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 105,390 L 105,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 134,390 L 134,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 163,390 L 163,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 192,390 L 192,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 221,390 L 221,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 250,390 L 250,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 279,390 L 279,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 308,390 L 308,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 337,390 L 337,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 366,390 L 366,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 395,390 L 395,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 424,390 L 424,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 453,390 L 453,338 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 250,416 L 250,390 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<text x="180.647705078125" y="312" style="font-family: CardHeading; font-size: 21px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,624) scale(1,-1)">SUBSTITUTIONS</text>
-			<path d="M 18,305 L 482,305 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,279 L 482,279 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,253 L 482,253 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,227 L 482,227 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,201 L 482,201 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,175 L 482,175 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,149 L 482,149 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 18,123 L 482,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 48,305 L 48,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 98,305 L 98,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 120,305 L 120,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 172,305 L 172,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 200,305 L 200,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 280,305 L 280,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 330,305 L 330,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 352,305 L 352,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 404,305 L 404,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 432,305 L 432,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<path d="M 250,305 L 250,123 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<text x="20.8626708984375" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">OUT</text>
-			<text x="103.25" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">IN</text>
-			<text x="175.460205078125" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">MIN</text>
-			<text x="252.8626708984375" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">OUT</text>
-			<text x="335.25" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">IN</text>
-			<text x="407.460205078125" y="288" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">MIN</text>
-			<text x="20.8626708984375" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">OUT</text>
-			<text x="103.25" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">IN</text>
-			<text x="175.460205078125" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">MIN</text>
-			<text x="252.8626708984375" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">OUT</text>
-			<text x="335.25" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">IN</text>
-			<text x="407.460205078125" y="262" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,524) scale(1,-1)">MIN</text>
-			<text x="20.8626708984375" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">OUT</text>
-			<text x="103.25" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">IN</text>
-			<text x="175.460205078125" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">MIN</text>
-			<text x="252.8626708984375" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">OUT</text>
-			<text x="335.25" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">IN</text>
-			<text x="407.460205078125" y="236" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">MIN</text>
-			<text x="20.8626708984375" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">OUT</text>
-			<text x="103.25" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">IN</text>
-			<text x="175.460205078125" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">MIN</text>
-			<text x="252.8626708984375" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">OUT</text>
-			<text x="335.25" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">IN</text>
-			<text x="407.460205078125" y="210" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">MIN</text>
-			<text x="20.8626708984375" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">OUT</text>
-			<text x="103.25" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">IN</text>
-			<text x="175.460205078125" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">MIN</text>
-			<text x="252.8626708984375" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">OUT</text>
-			<text x="335.25" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">IN</text>
-			<text x="407.460205078125" y="184" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,368) scale(1,-1)">MIN</text>
-			<text x="20.8626708984375" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">OUT</text>
-			<text x="103.25" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">IN</text>
-			<text x="175.460205078125" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">MIN</text>
-			<text x="252.8626708984375" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">OUT</text>
-			<text x="335.25" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">IN</text>
-			<text x="407.460205078125" y="158" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,316) scale(1,-1)">MIN</text>
-			<text x="20.8626708984375" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">OUT</text>
-			<text x="103.25" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">IN</text>
-			<text x="175.460205078125" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">MIN</text>
-			<text x="252.8626708984375" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">OUT</text>
-			<text x="335.25" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">IN</text>
-			<text x="407.460205078125" y="132" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">MIN</text>
+			<text x="177.853515625" y="708" style="font-family: CardHeading; font-size: 24px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1416) scale(1,-1)">MATCH NOTES</text>
+			<path d="M 18,695 L 482,695 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,635 L 482,635 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,611 L 482,611 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,586 L 482,586 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 250,695 L 250,586 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 190,695 L 190,635 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 422,695 L 422,635 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="25" y="678" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1356) scale(1,-1)">HOME TEAM:</text>
+			<text x="257" y="678" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1356) scale(1,-1)">AWAY TEAM:</text>
+			<text x="204.664794921875" y="678" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1356) scale(1,-1)">KICK-</text>
+			<text x="208.5028076171875" y="664" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1328) scale(1,-1)">OFF</text>
+			<text x="436.664794921875" y="678" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1356) scale(1,-1)">KICK-</text>
+			<text x="440.5028076171875" y="664" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1328) scale(1,-1)">OFF</text>
+			<text x="25" y="619" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1238) scale(1,-1)">JERSEY COLOUR:</text>
+			<text x="257" y="619" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1238) scale(1,-1)">JERSEY COLOUR:</text>
+			<circle cx="29" cy="598" r="6.5" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="26.7" y="605.2" width="4.599999999999998" height="2.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="41" y="593" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1186) scale(1,-1)">KO:</text>
+			<path d="M 134,611 L 134,586 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<circle cx="145" cy="598" r="6.5" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="142.7" y="605.2" width="4.599999999999994" height="2.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 145,598 L 145,603 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 145,598 L 148.5,596.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="157" y="593" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1186) scale(1,-1)">HT:</text>
+			<circle cx="261" cy="598" r="6.5" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="258.7" y="605.2" width="4.600000000000023" height="2.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 261,598 L 261,603 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 261,598 L 264.5,596.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="273" y="593" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1186) scale(1,-1)">2.H:</text>
+			<path d="M 366,611 L 366,586 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<circle cx="377" cy="598" r="6.5" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="374.7" y="605.2" width="4.600000000000023" height="2.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 377,598 L 377,603 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 377,598 L 380.5,596.5 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="389" y="593" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1186) scale(1,-1)">FT:</text>
+			<text x="220.572265625" y="567" style="font-family: CardHeading; font-size: 19px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1134) scale(1,-1)">1. HALF</text>
+			<path d="M 18,562 L 482,562 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="25" y="547" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1094) scale(1,-1)">GOALS (PLAYER / MIN)</text>
+			<text x="257" y="547" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1094) scale(1,-1)">GOALS (PLAYER / MIN)</text>
+			<path d="M 18,542 L 482,542 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,520 L 482,520 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,498 L 482,498 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 18,476 L 482,476 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,454 L 482,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 47,542 L 47,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 76,542 L 76,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 105,542 L 105,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 134,542 L 134,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 163,542 L 163,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 192,542 L 192,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 221,542 L 221,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 250,542 L 250,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 279,542 L 279,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 308,542 L 308,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 337,542 L 337,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 366,542 L 366,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 395,542 L 395,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 424,542 L 424,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 453,542 L 453,454 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 250,562 L 250,542 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="220.572265625" y="435" style="font-family: CardHeading; font-size: 19px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,870) scale(1,-1)">2. HALF</text>
+			<path d="M 18,430 L 482,430 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="25" y="415" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,830) scale(1,-1)">GOALS (PLAYER / MIN)</text>
+			<text x="257" y="415" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,830) scale(1,-1)">GOALS (PLAYER / MIN)</text>
+			<path d="M 18,410 L 482,410 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,388 L 482,388 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,366 L 482,366 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 18,344 L 482,344 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,322 L 482,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 47,410 L 47,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 76,410 L 76,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 105,410 L 105,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 134,410 L 134,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 163,410 L 163,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 192,410 L 192,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 221,410 L 221,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 250,410 L 250,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 279,410 L 279,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 308,410 L 308,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 337,410 L 337,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 366,410 L 366,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 395,410 L 395,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 424,410 L 424,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 453,410 L 453,322 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 250,430 L 250,410 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="180.647705078125" y="302" style="font-family: CardHeading; font-size: 21px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,604) scale(1,-1)">SUBSTITUTIONS</text>
+			<path d="M 18,296 L 482,296 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,278 L 482,278 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,256 L 482,256 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,234 L 482,234 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,212 L 482,212 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,190 L 482,190 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,168 L 482,168 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,146 L 482,146 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 18,124 L 482,124 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 95.333333,296 L 95.333333,124 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 172.666667,296 L 172.666667,124 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="44.529337565104164" y="283" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,566) scale(1,-1)">OUT</text>
+			<text x="128.25" y="283" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,566) scale(1,-1)">IN</text>
+			<text x="200.79353841145834" y="283" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,566) scale(1,-1)">MIN</text>
+			<path d="M 327.333333,296 L 327.333333,124 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 404.666667,296 L 404.666667,124 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="276.5293375651042" y="283" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,566) scale(1,-1)">OUT</text>
+			<text x="360.25" y="283" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,566) scale(1,-1)">IN</text>
+			<text x="432.79353841145837" y="283" style="font-family: CardRegular; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,566) scale(1,-1)">MIN</text>
+			<path d="M 250,296 L 250,124 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
 			<path d="M 448 100 C 447 75 437 59 420 51 C 444 57 450 70 448 100 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
 			<path d="M 451 100 C 451 70 459 59 477 51 C 461 64 456 78 451 100 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
 			<path d="M 423 49 C 442 62 455 63 475 49 C 455 55 443 55 423 49 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>

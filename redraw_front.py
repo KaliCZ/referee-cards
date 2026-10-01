@@ -15,16 +15,16 @@ def stopwatch(drawing, left, top, state):
 
 
 def goals(drawing, heading_top, title):
-    text(drawing, title, 250, heading_top + 21, 19, True, "middle")
-    label_top = heading_top + 29
+    text(drawing, title, 250, heading_top + 19, 19, True, "middle")
+    label_top = heading_top + 24
     line(drawing, 18, label_top, 482, label_top)
-    text(drawing, "GOALS (MIN)", 25, label_top + 18)
-    text(drawing, "GOALS (MIN)", 257, label_top + 18)
-    grid_top = label_top + 26
-    for row in range(3):
-        line(drawing, 18, grid_top + row * 26, 482, grid_top + row * 26)
+    text(drawing, "GOALS (PLAYER / MIN)", 25, label_top + 15)
+    text(drawing, "GOALS (PLAYER / MIN)", 257, label_top + 15)
+    grid_top = label_top + 20
+    for row in range(5):
+        line(drawing, 18, grid_top + row * 22, 482, grid_top + row * 22, 1.2 if row == 2 else 0.7)
     for column in range(1, 16):
-        line(drawing, 18 + column * 29, grid_top, 18 + column * 29, grid_top + 52)
+        line(drawing, 18 + column * 29, grid_top, 18 + column * 29, grid_top + 88)
     line(drawing, 250, label_top, 250, grid_top)
 
 
@@ -46,41 +46,48 @@ def logo(drawing):
     text(drawing, "SELECT", 449, 717, 18, True, "middle")
 
 
+def substitutions(drawing, heading_top):
+    text(drawing, "SUBSTITUTIONS", 250, heading_top + 20, 21, True, "middle")
+    header_top = heading_top + 26
+    grid_top = header_top + 18
+    grid_bottom = grid_top + 7 * 22
+    line(drawing, 18, header_top, 482, header_top)
+    for row in range(8):
+        line(drawing, 18, grid_top + row * 22, 482, grid_top + row * 22)
+    for team_left in [18, 250]:
+        for column in range(1, 3):
+            boundary = team_left + column * 232 / 3
+            line(drawing, boundary, header_top, boundary, grid_bottom)
+        for column, label in enumerate(["OUT", "IN", "MIN"]):
+            text(drawing, label, team_left + (column + 0.5) * 232 / 3, header_top + 13, 11.5, anchor="middle")
+    line(drawing, 250, header_top, 250, grid_bottom)
+
+
 def main():
     drawing, layout = create_card()
-    text(drawing, "MATCH NOTES", 250, 62, 24, True, "middle")
-    for horizontal in [75, 145, 171, 198]:
+    text(drawing, "MATCH NOTES", 250, 42, 24, True, "middle")
+    for horizontal in [55, 115, 139, 164]:
         line(drawing, 18, horizontal, 482, horizontal)
-    line(drawing, 250, 75, 250, 198)
+    line(drawing, 250, 55, 250, 164)
     for vertical in [190, 422]:
-        line(drawing, vertical, 75, vertical, 145)
-    text(drawing, "HOME TEAM:", 25, 92)
-    text(drawing, "AWAY TEAM:", 257, 92)
+        line(drawing, vertical, 55, vertical, 115)
+    text(drawing, "HOME TEAM:", 25, 72)
+    text(drawing, "AWAY TEAM:", 257, 72)
     for center in [220, 452]:
-        text(drawing, "KICK-", center, 92, anchor="middle")
-        text(drawing, "OFF", center, 106, anchor="middle")
+        text(drawing, "KICK-", center, 72, anchor="middle")
+        text(drawing, "OFF", center, 86, anchor="middle")
     for start in [25, 257]:
-        text(drawing, "JERSEY COLOUR:", start, 163)
+        text(drawing, "JERSEY COLOUR:", start, 131)
     for position, label, state in [(18, "KO:", 0), (134, "HT:", 1), (250, "2.H:", 1), (366, "FT:", 1)]:
         if position in [134, 366]:
-            line(drawing, position, 171, position, 198)
-        stopwatch(drawing, position + 4, 175, state)
-        text(drawing, label, position + 23, 189)
-    goals(drawing, 198, "1. HALF")
-    goals(drawing, 305, "2. HALF")
-    text(drawing, "SUBSTITUTIONS", 250, 438, 21, True, "middle")
-    for row in range(8):
-        line(drawing, 18, 445 + row * 26, 482, 445 + row * 26)
-    for team_left in [18, 250]:
-        for offset in [30, 80, 102, 154, 182]:
-            line(drawing, team_left + offset, 445, team_left + offset, 627)
-    line(drawing, 250, 445, 250, 627)
-    for row in range(7):
-        for team_left in [18, 250]:
-            for offset, label in [(15, "OUT"), (91, "IN"), (168, "MIN")]:
-                text(drawing, label, team_left + offset, 462 + row * 26, 11.5, anchor="middle")
+            line(drawing, position, 139, position, 164)
+        stopwatch(drawing, position + 4, 143, state)
+        text(drawing, label, position + 23, 157)
+    goals(drawing, 164, "1. HALF")
+    goals(drawing, 296, "2. HALF")
+    substitutions(drawing, 428)
     logo(drawing)
-    export_card(drawing, layout, "front-match-notes", "Match notes with substitution minutes")
+    export_card(drawing, layout, "front-match-notes", "Match notes with two goal-entry rows per half")
 
 
 if __name__ == "__main__":
