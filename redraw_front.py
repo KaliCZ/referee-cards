@@ -1,17 +1,7 @@
-from reportlab.graphics.shapes import Circle, Path as VectorPath, Rect
-from reportlab.lib.colors import black, white
+from reportlab.graphics.shapes import Path as VectorPath
+from reportlab.lib.colors import black
 
 from card_drawing import HEIGHT, create_card, export_card, line, text
-
-
-def stopwatch(drawing, left, top, state):
-    center_x = left + 7
-    center_y = HEIGHT - top - 9
-    drawing.add(Circle(center_x, center_y, 6.5, fillColor=white, strokeColor=black, strokeWidth=1.2))
-    drawing.add(Rect(center_x - 2.3, center_y + 7.2, 4.6, 2, fillColor=black, strokeColor=None))
-    if state:
-        line(drawing, center_x, top + 9, center_x, top + 4, 1)
-        line(drawing, center_x, top + 9, center_x + 3.5, top + 10.5, 1)
 
 
 def goals(drawing, heading_top, title):
@@ -22,9 +12,9 @@ def goals(drawing, heading_top, title):
     text(drawing, "GOALS (PLAYER / MIN)", 257, label_top + 15)
     grid_top = label_top + 20
     for row in range(5):
-        line(drawing, 18, grid_top + row * 22, 482, grid_top + row * 22, 1.2 if row == 2 else 0.7)
+        line(drawing, 18, grid_top + row * 28, 482, grid_top + row * 28, 1.2 if row == 2 else 0.7)
     for column in range(1, 16):
-        line(drawing, 18 + column * 29, grid_top, 18 + column * 29, grid_top + 88)
+        line(drawing, 18 + column * 29, grid_top, 18 + column * 29, grid_top + 112)
     line(drawing, 250, label_top, 250, grid_top)
 
 
@@ -66,25 +56,19 @@ def substitutions(drawing, heading_top):
 def main():
     drawing, layout = create_card()
     text(drawing, "MATCH NOTES", 250, 42, 24, True, "middle")
-    for horizontal in [55, 115, 139, 164]:
+    for horizontal in [55, 92, 116]:
         line(drawing, 18, horizontal, 482, horizontal)
-    line(drawing, 250, 55, 250, 164)
+    line(drawing, 250, 55, 250, 116)
     for vertical in [190, 422]:
-        line(drawing, vertical, 55, vertical, 115)
-    text(drawing, "HOME TEAM:", 25, 72)
-    text(drawing, "AWAY TEAM:", 257, 72)
+        line(drawing, vertical, 55, vertical, 92)
+    text(drawing, "HOME:", 25, 72)
+    text(drawing, "AWAY:", 257, 72)
     for center in [220, 452]:
-        text(drawing, "KICK-", center, 72, anchor="middle")
-        text(drawing, "OFF", center, 86, anchor="middle")
+        text(drawing, "BALL", center, 72, anchor="middle")
     for start in [25, 257]:
-        text(drawing, "JERSEY COLOUR:", start, 131)
-    for position, label, state in [(18, "KO:", 0), (134, "HT:", 1), (250, "2.H:", 1), (366, "FT:", 1)]:
-        if position in [134, 366]:
-            line(drawing, position, 139, position, 164)
-        stopwatch(drawing, position + 4, 143, state)
-        text(drawing, label, position + 23, 157)
-    goals(drawing, 164, "1. HALF")
-    goals(drawing, 296, "2. HALF")
+        text(drawing, "JERSEY COLOUR:", start, 108)
+    goals(drawing, 116, "1. HALF")
+    goals(drawing, 272, "2. HALF")
     substitutions(drawing, 428)
     logo(drawing)
     export_card(drawing, layout, "front-match-notes", "Match notes with two goal-entry rows per half")
