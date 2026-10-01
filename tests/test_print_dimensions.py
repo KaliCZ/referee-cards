@@ -37,6 +37,31 @@ def cutting_borders(page):
 
 
 class PrintDimensions(unittest.TestCase):
+    def test_extra_heavy_compensation_restores_measured_height_on_both_sides(self):
+        pages = PdfReader(ROOT / "print/referee-cards-A4-duplex-HP135w-extra-heavy.pdf").pages
+        self.assertEqual(len(pages), 2)
+        positions = []
+        for page in pages:
+            self.assertAlmostEqual(float(page.mediabox.width) / POINTS_PER_MM, 210, places=3)
+            self.assertAlmostEqual(float(page.mediabox.height) / POINTS_PER_MM, 297, places=3)
+            self.assertIn("EXTRA HEAVY", page.extract_text())
+            borders = cutting_borders(page)
+            self.assertEqual(len(borders), 4)
+            self.assertEqual(sum(operator == b"Do" for _, operator in page.get_contents().operations), 4)
+            for left, bottom, right, top in borders:
+                self.assertAlmostEqual((right - left) / POINTS_PER_MM, 77, places=3)
+                self.assertAlmostEqual((top - bottom) / POINTS_PER_MM * 110 / 114, 114, places=3)
+                self.assertGreater(left, 5 * POINTS_PER_MM)
+                self.assertGreater(bottom, 20 * POINTS_PER_MM)
+                self.assertLess(right, float(page.mediabox.width) - 5 * POINTS_PER_MM)
+                self.assertLess(top, float(page.mediabox.height) - 5 * POINTS_PER_MM)
+                reflected = (float(page.mediabox.width) - right, bottom,
+                             float(page.mediabox.width) - left, top)
+                self.assertTrue(any(all(abs(actual - expected) < 0.001 for actual, expected in zip(candidate, reflected))
+                                    for candidate in borders))
+            positions.append(borders)
+        self.assertEqual(positions[0], positions[1])
+
     def test_individual_cards_are_measured_size_with_full_cutting_borders(self):
         pages = PdfReader(ROOT / "print/referee-card-front-back.pdf").pages
         self.assertEqual(len(pages), 2)

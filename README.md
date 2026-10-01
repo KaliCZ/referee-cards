@@ -18,6 +18,16 @@ If front/back registration is offset, adjust the printer's duplex alignment. The
 
 [`print/referee-card-front-back.pdf`](print/referee-card-front-back.pdf) contains two individual card-sized pages for a print shop or other layouts.
 
+## HP MFP 135w: Extra Heavy profile
+
+Use [`print/referee-cards-A4-duplex-HP135w-extra-heavy.pdf`](print/referee-cards-A4-duplex-HP135w-extra-heavy.pdf) with **Extra Heavy**, **A4 portrait**, **Actual size / 100%**, and **long-edge duplex** (manually refeed if needed).
+
+This separate version compensates for Pavel's measured result: a 114 mm card printed 110 mm tall with Extra Heavy, while its width remained correct. It stretches only the card height by **114 / 110 = 1.03636**, making the PDF borders **77 x 118.145 mm**. After the same printer compression, they should measure **77 x 114 mm**. Both sides use matching positions. Test one sheet and measure both sides before printing a batch; the correction has not yet been physically verified.
+
+Use the standard PDF for Plain Paper, other printers or a print shop. The **Heavy** profile needs a separate measurement; this correction is specifically for **Extra Heavy**. Compensation does not change the printer's supported paper-weight range.
+
+Rebuild the compensated PDF with `python build_heavy_print_pdf.py`. The reference and measured heights are stored in `printer-calibration.json`; card masters and standard dimensions stay unchanged.
+
 ## Clone and print
 
 ```sh
@@ -44,10 +54,11 @@ Printing needs no Python. Rebuilding requires **Python 3.12+**:
 ```sh
 python -m pip install -r requirements.txt
 python build_print_pdf.py
+python build_heavy_print_pdf.py
 python -m unittest discover -s tests
 ```
 
-The builder reads the JPEGs and overwrites the two files in `print`. It adds the same vector cutting border to both sides. It does not alter the JPEG masters.
+The standard builder reads the JPEGs and overwrites the two standard files in `print`. The heavy-paper builder writes only the separate compensated A4 PDF. Both add vector cutting borders without altering the JPEG masters.
 
 For a clean redesign, edit `redraw_front.py` or `redraw_back.py`, then run:
 
@@ -55,6 +66,7 @@ For a clean redesign, edit `redraw_front.py` or `redraw_back.py`, then run:
 python redraw_front.py
 python redraw_back.py
 python build_print_pdf.py
+python build_heavy_print_pdf.py
 python -m unittest discover -s tests
 ```
 
@@ -69,6 +81,8 @@ See [editing and size notes](docs/editing.md) for source-file roles and scan mea
 - `sources/`: original PNG and PDF scans used as the layout reference.
 - `docs/`: previews and editing notes.
 - `build_print_pdf.py`: portable PDF builder.
+- `build_heavy_print_pdf.py`: separate HP Extra Heavy compensation builder.
+- `printer-calibration.json`: measured printer-profile height correction.
 - `redraw_front.py`: vector front drawing and raster export.
 - `redraw_back.py`: vector penalties drawing and raster export.
 - `card_drawing.py`: shared drawing, fonts, sizing and export functions.

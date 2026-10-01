@@ -24,4 +24,5 @@ jobs:
           python redraw_front.py
           python redraw_back.py
           python build_print_pdf.py
+          python build_heavy_print_pdf.py
           python -m unittest discover -s tests

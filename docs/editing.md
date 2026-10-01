@@ -22,6 +22,8 @@ The builder clips a rounded inset of 1.5 mm from the JPEG edges to suppress olde
 
 ## Validate a revision
 
-Run the builder and tests, then visually inspect both PDF pages for legible labels, row counts, clipping and border visibility. Print a test sheet at 100%, measure the 50 mm scale bar and 77 x 114 mm border, and check the front/back registration before a batch.
+The separate HP MFP 135w Extra Heavy PDF is built by `build_heavy_print_pdf.py` from the same JPEGs. `printer-calibration.json` records the standard card's 114 mm reference height and its measured 110 mm output with Extra Heavy. The builder applies 114/110 to card heights only, producing 77 x 118.145 mm PDF borders intended to print at 77 x 114 mm with that profile. The standard PDFs and artwork retain their original dimensions. A different driver profile needs its own measured calibration, and the compensated output still needs a physical test on both sides.
+
+Run both builders and tests, then visually inspect both sides of each PDF for legible labels, row counts, clipping and border visibility. Print a test sheet at 100%, measure the 50 mm scale bar and 77 x 114 mm border, and check the front/back registration before a batch.
 
 The automated checks run for pushes and pull requests. They inspect committed PDFs and rebuild the project on Linux to check portability. They do not replace visual inspection or a physical printer check.
